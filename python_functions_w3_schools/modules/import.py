@@ -11,8 +11,9 @@ print(a)
 x = platform.system()
 print(x)
 
-#
-print(dir(mymodule))
+
+'''print(dir(mymodule))
 
 help(mymodule.greeting)
 help(mymodule.person1)
+'''
