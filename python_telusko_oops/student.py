@@ -29,9 +29,9 @@ class Maths:
         return self.x * self.y
     def get_a(self):        #accessor methods or getter
         return self.a
-    def set_b(self,value):      #mutators methods or setter
-        self.b = value
-        return self.b
+    def set_a(self,value):      #mutators methods or setter
+        self.a = value
+        return self.a
     @staticmethod
     def info():
         print("Hi this is harsha")
@@ -47,15 +47,20 @@ print(s1.avg())
 
 print(s1.get_m1())
 print(s1.set_m1(1000))
+print(s1.get_m1())
 
-Student.getCompany()
+print(Student.getCompany())
 Student.display()
+
+print(s1.getCompany())
+s1.display()
 
 print(s3.sum_of_two(4,6))
 print(s3.mul_of_two())
 
 print(s3.get_a())
-print(s3.set_b(20))
+print(s3.set_a(20))
+print(s3.get_a())
 
 Maths.info()
 

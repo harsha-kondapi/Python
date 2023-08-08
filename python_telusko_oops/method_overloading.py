@@ -1,7 +1,7 @@
 class Student:
-    def __init__(self, m1, m2):
+    '''def __init__(self, m1, m2):
         self.m1 = m1
-        self.m2 = m2
+        self.m2 = m2'''
 
     def sum(self, a=None, b=None, c=None):
         if a != None and b != None and c != None:
@@ -12,5 +12,5 @@ class Student:
             return s
 
 
-s1 = Student(58, 69)
+s1 = Student()
 print(s1.sum(4, 6))
