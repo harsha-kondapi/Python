@@ -2,6 +2,11 @@ from LoadIP import CustomIP
 
 
 def ValidateIpv4(set_ip):
+    """
+
+    :param set_ip:
+    :return:
+    """
     ipval = CustomIP(set_ip)
     ip_add = ipval.ip_address()
     ipv4 = ipval.ip_octets
